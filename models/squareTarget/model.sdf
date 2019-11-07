@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+     <model name='target'>
+            <static>1</static>
+            <pose frame=''>0 0 0 0 -0 0</pose>
+            <link name='link'>
+                <visual name='visual'>
+                    <geometry>
+                        <box>
+              			<size>0.4 0.4 0.001</size>
+          		</box>
+                    </geometry>
+                    <material>
+                        <script>
+                            <name>Gazebo/Red</name>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+</sdf>

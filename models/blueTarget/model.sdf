@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+     <model name='blueTarget'>
+            <static>1</static>
+            <pose frame=''>0 0 0 0 -0 0</pose>
+            <link name='link'>
+                <visual name='visual'>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.2</radius>
+                            <length>0.001</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <name>Gazebo/Blue</name>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+</sdf>
